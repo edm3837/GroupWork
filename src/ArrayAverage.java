@@ -2,7 +2,7 @@
 /**
  * Program takes an array and then finds the average in it
  *
- * @author em0947744
+ * @author Emory Meursing
  */
 import java.util.Arrays;
 import java.util.Scanner;
