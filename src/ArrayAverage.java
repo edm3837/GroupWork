@@ -1,9 +1,19 @@
 
+/**
+ * Program takes an array and then finds the average in it
+ *
+ * @author em0947744
+ */
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayAverage {
 
+    /**
+     * Main method
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double[] average;
@@ -20,7 +30,12 @@ public class ArrayAverage {
         System.out.println(Arrays.toString(average));
     }
 
-    //Inputs variables into array
+    /**
+     * Returns the array and how big it is
+     *
+     * @param array
+     * @param arraySize
+     */
     public static void arrayInputs(double[] array, int arraySize) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter " + arraySize + " variables: ");
@@ -30,7 +45,13 @@ public class ArrayAverage {
         arrayAverage(array, arraySize);
     }
 
-    //Finds average of array
+    /**
+     * Finds the average in the array
+     *
+     * @param array
+     * @param arraySize
+     * @return
+     */
     public static double arrayAverage(double[] array, double arraySize) {
         double averages = 0;
         for (int x = 0; x < arraySize; x++) {
